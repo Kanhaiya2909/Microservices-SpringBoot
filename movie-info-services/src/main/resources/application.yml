@@ -1,0 +1,6 @@
+server:  port: 9898
+spring:  application:    name: movie-info-services
+eureka:  client:    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:      defaultZone: http://localhost:8083/eureka/  instance:    hostname: localhost           
+    
